@@ -1,0 +1,56 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+#hero{
+  width: 592px;
+  margin: 0 auto 72px;  /* primeiro cima, no  meio direita/esquerda e dps baixo */
+}
+
+#hero img{
+  margin-bottom: 72px;
+}
+
+h1{
+  font-family: 'Inter', sans-serif;
+  font-size: 49px; /* tamanho da fonte */
+  line-height: 56px; /* altura da linha */
+  margin-bottom: 32px;
+  font-weight: normal; /* peso da fonte, bold= negrito e normal= não negrito */
+}
+
+h1 span{ /* quando bota vírgula, que dizer que os 2 elementos vão pegar as características */
+  font-weight: bold;
+}
+
+span, a{
+  color: #FF9900
+}
+
+p, #footer{
+  color: #7D7987;
+  font-size: 14px;
+  line-height: 28px;
+}
+
+#footer a + a { /* '' pegue um a que tem anterior a ele outro a'' */
+  margin-left: 28px ;
+}
+
+#footer{ margin-bottom: 32x;
+}
+
+#line{
+  width: 568px;
+  height: 0px;
+  border: 1px solid #ECEFF2;
+  margin: 0 auto 8px;
+}
+
+#balls{
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
